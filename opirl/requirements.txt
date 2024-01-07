@@ -1,0 +1,10 @@
+gym
+imageio-ffmpeg
+joblib
+matplotlib
+mujoco_py
+numpy
+tensorflow==2.5.0
+tensorflow_probability==0.12.2
+tf-agents==0.8.0
+wandb
