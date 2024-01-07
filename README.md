@@ -36,4 +36,7 @@ from the `opirl` directory.
 Alternatively, use the script in `opirl/scripts`.
 
 The results are found in the results directory.
-Most interesting is the `e
+Most interesting is the `eval.csv` file which contains the policy evaluations during regular intervals of the training.
+
+Plot the results using `plot.py`. Update the path to the results first, if necessary.
+Requires `pip install seaborn pandas`.

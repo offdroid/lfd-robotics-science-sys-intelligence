@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sns
 
 df = None
-for path in Path("path/to/results").glob("*/*"):
+for path in Path("results").glob("*/*"):
     if path.name == ("eval.csv"):
         print("Importing", path)
         _df = pd.read_csv(path)
